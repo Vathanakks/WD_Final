@@ -1,0 +1,26 @@
+body{
+    background: #0000;
+}
+
+.main-container {
+    background-color: aliceblue;
+}
+
+.highlight{
+    background: #15151e;
+}
+
+.highlight img{
+    width: 100%;
+}
+
+@keyframes fadeup {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
