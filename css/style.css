@@ -25,6 +25,40 @@ li a {
     color: #fff;
 }
 
+.nav-item .active {
+    border-bottom: 2px solid #ff0000;
+}
+
+.nav-item {
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover{
+    opacity: 0.5;
+    border-bottom: 2px solid #ff0000;
+    transform: translateY(-4px);
+}
+
+.navbar {
+    border-bottom: 2px solid #2b2b36;
+}
+
+.highlight-col:hover {
+    text-decoration: underline;
+}
+
+.highlightimg {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.highlightimg img{
+    transition: transform 0.3s ease;
+}
+
+.highlightimg img:hover {
+    transform: scale(1.2);
+}
 @keyframes fadeup {
     from {
         opacity: 0;
