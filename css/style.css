@@ -77,9 +77,6 @@ li a {
 .footer-inner-partner{
     padding: 32px;
 }
-.footer-inner-partner img{
-    width: 70px; 
-}
 .footer-inner-partner-letter{
     color: #fff;
     display: flex;
@@ -90,10 +87,18 @@ li a {
 .footer-inner-partner-logo{
     display: flex;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .footer-inner-partner-logo img{
     width: 70px;
+}
+.partner-color{
+    background-color: #2b2b36;
+}
+.partner-color-2{
+    background-color: #b3afaf;
+}
+.flex{
+    display: flex;
 }
