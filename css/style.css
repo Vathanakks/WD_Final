@@ -75,10 +75,25 @@ li a {
     background-color: rgb(0, 0, 0);
 }
 .footer-inner-partner{
+    padding: 32px;
+}
+.footer-inner-partner img{
+    width: 70px; 
+}
+.footer-inner-partner-letter{
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-bottom:30px ;
+}
+.footer-inner-partner-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 20px;
+}
+.footer-inner-partner-logo img{
+    width: 70px;
 }
