@@ -35,3 +35,16 @@ li a {
         transform: translateY(0);
     }
 }
+
+
+.footer{
+    background-color: rgb(0, 0, 0);
+}
+.footer-inner-partner{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
