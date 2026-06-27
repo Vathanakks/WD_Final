@@ -3,7 +3,7 @@ body{
 }
 
 .main-container {
-    background-color: aliceblue;
+    background-color: #000;
 }
 
 .highlight{
@@ -59,6 +59,11 @@ li a {
 .highlightimg img:hover {
     transform: scale(1.2);
 }
+
+.top-400{
+    top: -350px;
+}
+
 @keyframes fadeup {
     from {
         opacity: 0;
