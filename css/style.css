@@ -89,10 +89,14 @@ li a {
     align-items: center;
     margin-bottom:30px ;
 }
+.footer-inner-partner-letter h2{
+    font-weight: bold;
+}
 .footer-inner-partner-logo{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 .footer-inner-partner-logo img{
@@ -104,6 +108,24 @@ li a {
 .partner-color-2{
     background-color: #b3afaf;
 }
+
+
+
+
+.footer-app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
 .flex{
     display: flex;
+}
+.center{
+    justify-content: center;
+    align-items: center;
 }
