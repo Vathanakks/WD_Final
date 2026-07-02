@@ -8,14 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/results.css">
     <title>Formula1</title>
 </head>
 
 <body>
     <div class="main-container">
-        <nav class="navbar navbar-expand-lg bg-black">
+        <nav class="navbar navbar-expand-lg bg-black py-3 shadow-lg">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand me-5" href="#">
                     <img src="../image/homeimg/f1logo.avif" width="120px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -23,9 +24,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav gap-2 fw-bold">
+                    <ul class="navbar-nav gap-4 fs-5 fw-bold ms-4">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="home.html">Home</a>
+                            <a class="nav-link text-white" aria-current="page" href="home.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="schedule.html">Schedule</a>
@@ -37,309 +38,396 @@
                             <a class="nav-link text-white" href="driver.html">Drivers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="results.html">Result</a>
+                            <a class="nav-link active text-white" href="results.html">Result</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="pteam.html">Project Teams</a>
                         </li>
-
                     </ul>
                 </div>
+                <div>
+                    <img src="../image/homeimg/fialogo.png" width="50px">
+                </div>
             </div>
-        </nav>
+        </nav> <!-- End Navbar -->
+        <div class="container results">
+            <div class="results">
 
-        <div class="w-100 mb-4 position-relative">
-            <video autoplay muted loop playsinline width="100%">
-                <source src="../Video/Video2.mp4" type="video/mp4">
-            </video>
+            </div>
             <div class="container">
-                <div class=" position-absolute bottom-0 start-0 p-5 fadeup">
-                    <a href="schedule.html" class="btn btn-danger text-white fs-4 px-4 shadow-lg">View Schedule</a>
-                </div>
-                <div class="position-absolute top-50 end-0 me-5">
-                    <div class="text-white fw-bold fs-1">
-                        Formula1 <br>
-                    </div>
-                    <span class="text-white fw-bold fs-2">Since 1946</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="content1 container bg-white rounded shadow-lg mb-4">
-            <div class="p-5 d-flex justify-content-between">
-                <div class="w-25">
-                    <img class="rounded" src="../image/homeimg/ceo.png" width="700px">
-                </div>
-                <div>
-                    <div class="fs-1 fw-bold text-black">Since 1946</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="highlight container-fluid item-center fadeup">
-            <div class="container py-5">
-                <div class="fw-bold fs-1 text-white mb-4">2026 Highlight</div>
-                <div class="row text-white">
-                    <div class="col-3">
-                        <img src="../image/homeimg/race1.png">
-                        <h1>Hello</h1>
-                    </div>
-                    <div class="col-3">
-                        <img src="../image/homeimg/race1.png">
-                        <h1>Hello</h1>
-                    </div>
-                    <div class="col-3">
-                        <img src="../image/homeimg/race1.png" alt="">
-                        <h1>Hello</h1>
-                    </div>
-                    <div class="col-3">
-                        <img src="../image/homeimg/race1.png" alt="">
-                        <h1>Hello</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="container-footer-inner">
-            <div class="footer-inner-partner ">
-                <div class="container footer-inner-partner-letter">
-                    <h2>
-                        OUR PARTNERS
-                    </h2>
-                    <span>
-                        View All
-                    </span>
-                </div>
-                <div class="footer-inner-partner-logo">
-                    <div class="container">
-                        <div class="row center">
-                            <div class="col-auto">
-                                <a href="https://www.lvmh.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/lvmh.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.pirelli.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/pirelli.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.aramco.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/aramco.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.heineken.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/logoheinekenoutlinedlight.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://aws.amazon.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/AWS GLOBAL.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.lenovo.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/lenovo.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://inmotion.dhl/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/dhl.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.qatarairways.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/qatar.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.msccruises.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/msc.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.salesforce.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/salesforce.avif">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-inner-partner partner-color">
-                <div class="container footer-inner-partner-letter">
-                </div>
-                <div class="footer-inner-partner-logo">
-                    <div class="container">
-                        <div class="row center">
-                            <div class="col-auto">
-                                <a href="https://www.louisvuitton.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/louis vuitton.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.tagheuer.com/int/en/partnerships/f1.html" target="_blank">
-                                    <img src="../image/homeimg/footerimg/TAGH_Shield_Monochrome_White-pw1.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.lvmh.com/en/our-maisons/wines-spirits" target="_blank">
-                                    <img src="../image/homeimg/footerimg/moet hennessy.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.americanexpress.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/Amex.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.pepsico.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/pepsico.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://crypto.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/crypto.com.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.sc.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/standardchartered.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.santander.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/santander.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.corporate.marsh.com/global/about/our-brand/marsh-f1.html" target="_blank">
-                                    <img src="../image/homeimg/footerimg/marsh.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.globant.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/globant.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.allwyn.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/allwyn.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.pwc.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/pwc.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.nestle.com/brands/chocolate-confectionery/kitkat" target="_blank">
-                                    <img src="../image/homeimg/footerimg/nestle.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.barillagroup.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/barilla.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.visitlasvegas.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/las vegas.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.liqui-moly.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/liqui-moly.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.paramountplus.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/Paramount+.avif">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-inner-partner partner-color-2">
-                <div class="container footer-inner-partner-letter">
-                </div>
-                <div class="footer-inner-partner-logo">
-                    <div class="container">
-                        <div class="row center">
-                            <div class="col-auto">
-                                <a href="https://eu.puma.com/de/en/sports/motorsport" target="_blank">
-                                    <img src="../image/homeimg/footerimg/puma.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.tatacommunications.com/sports/powering-f1" target="_blank">
-                                    <img src="../image/homeimg/footerimg/TATA.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.aggreko.com/en-gb/sectors/events" target="_blank">
-                                    <img src="../image/homeimg/footerimg/aggreko.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.arcosdorados.com/" target="_blank">
-                                    <img src="../image/homeimg/footerimg/mcdonalds.avif">
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <a href="https://www.t-mobile.com/benefits/las-vegas-grand-prix" target="_blank">
-                                    <img src="../image/homeimg/footerimg/tmobile.avif">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-white">
-                <div class="footer-app">
-                    <h2 class="footer-left-app fw-bold fs-40">
-                        Download The offical F1 APP
-                    </h2>
-                    <span class="footer-right-app">
+                <div class="row">
+                    <div class="col-5 bg-danger">
                         <span>
-                            <a href="">
-                                <img src="../image/homeimg/footerimg/app-store~c48d2499a7455513.c48d2499.svg" alt="">
-                            </a>
+                            test
                         </span>
+                    </div>
+                    <div class="col-1 bg-info">
                         <span>
-                            <a href="">
-                                <img src="../image/homeimg/footerimg/google-play~66d1792be650c30d.66d1792b.svg" alt="">
-                            </a>
+                            test
                         </span>
-                    </span>
+                    </div>
+                    <div class="col-2 bg-danger">
+                        <span>
+                            test
+                        </span>
+                    </div>
+                    <div class="col-2 bg-info">
+                        <span>
+                            test
+                        </span>
+                    </div>
+                    <div class="col-2 bg-danger">
+                        <span>
+                            test
+                        </span>
+                    </div>
                 </div>
-                <div>
-                    <img src="../image/homeimg/f1logo.avif" width="8%">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container-footer-inner">
+                <div class="footer-test partner-color-1">
+                    <div class="footer-inner-partner ">
+                        <div class="container footer-inner-partner-letter">
+                            <h2>
+                                OUR PARTNERS
+                            </h2>
+                            <span>
+                                View All
+                            </span>
+                        </div>
+                        <div class="footer-inner-partner-logo">
+                            <div class="container">
+                                <div class="row center gap">
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://www.lvmh.com/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/lvmh.avif">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://www.pirelli.com/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/pirelli.avif">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://www.aramco.com/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/aramco.avif">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://www.heineken.com/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/logoheinekenoutlinedlight.avif">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://aws.amazon.com/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/AWS GLOBAL.avif">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://www.lenovo.com/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/lenovo.avif">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://inmotion.dhl/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/dhl.avif">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://www.qatarairways.com/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/qatar.avif">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://www.msccruises.com/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/msc.avif">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="partner-hover" href="https://www.salesforce.com/" target="_blank">
+                                            <img src="../image/homeimg/footerimg/salesforce.avif">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>3</div>
-                <div>
+                <div class="footer-inner-partner partner-color-2">
+                    <div class="container footer-inner-partner-letter">
+                    </div>
+                    <div class="footer-inner-partner-logo">
+                        <div class="container">
+                            <div class="row center">
+                                <div class="col-auto">
+                                    <a class="partner-hover" href="https://www.louisvuitton.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/louis vuitton.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.tagheuer.com/int/en/partnerships/f1.html" target="_blank">
+                                        <img src="../image/homeimg/footerimg/TAGH_Shield_Monochrome_White-pw1.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.lvmh.com/en/our-maisons/wines-spirits" target="_blank">
+                                        <img src="../image/homeimg/footerimg/moet hennessy.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.americanexpress.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/Amex.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.pepsico.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/pepsico.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://crypto.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/crypto.com.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.sc.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/standardchartered.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.santander.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/santander.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.corporate.marsh.com/global/about/our-brand/marsh-f1.html"
+                                        target="_blank">
+                                        <img src="../image/homeimg/footerimg/marsh.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.globant.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/globant.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.allwyn.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/allwyn.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.pwc.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/pwc.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.nestle.com/brands/chocolate-confectionery/kitkat"
+                                        target="_blank">
+                                        <img src="../image/homeimg/footerimg/nestle.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.barillagroup.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/barilla.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.visitlasvegas.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/las vegas.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.liqui-moly.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/liqui-moly.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.paramountplus.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/Paramount+.avif">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-inner-partner partner-color-3">
+                    <div class="container footer-inner-partner-letter">
+                    </div>
+                    <div class="footer-inner-partner-logo">
+                        <div class="container">
+                            <div class="row center">
+                                <div class="col-auto">
+                                    <a href="https://eu.puma.com/de/en/sports/motorsport" target="_blank">
+                                        <img src="../image/homeimg/footerimg/puma.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.tatacommunications.com/sports/powering-f1" target="_blank">
+                                        <img src="../image/homeimg/footerimg/TATA.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.aggreko.com/en-gb/sectors/events" target="_blank">
+                                        <img src="../image/homeimg/footerimg/aggreko.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.arcosdorados.com/" target="_blank">
+                                        <img src="../image/homeimg/footerimg/mcdonalds.avif">
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.t-mobile.com/benefits/las-vegas-grand-prix" target="_blank">
+                                        <img src="../image/homeimg/footerimg/tmobile.avif">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="">
+                        <div class="row py-5 footer-contact">
+                            <div class="col-2">
+                                <div>
+                                    <a href="home.html"><img src="../image/homeimg/f1logo.avif" width="200px"></a>
+                                </div>
+                                <div class="mt-3">
+                                    <span>
+                                        © 2003-2026 Formula One World Championship Limited
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <h4>
+                                    Contact US
+                                </h4>
+                                <span>
+                                    Tel: (+855) 10 200 888
+                                </span><br>
+                                <a href="Formula1@gmail.com"><span>Email:</span>Formula1@gmail.com</a><br>
+                                    Address: No. 464A Monivong Blvd, Sangkat Tonle Bassac, <br>
+                                    Khan Chamkarmorn, Phnom Penh, Cambodia <br>
+                            </div>
+                            <div class="col-2">
+                                <h4>
+                                    Follow US
+                                </h4>
+                                <div class="">
+                                    <i class="bi bi-facebook"></i>
+                                    <i class="bi bi-twitter-x"></i>
+                                    <i class="bi bi-instagram"></i>
+                                    <i class="bi bi-youtube"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex py-5 ">
+                            <div class="col-2">
+                                <div class="d-flex flex-column  ">
+                                    <h3>
+                                        home
+                                    </h3>
+                                    <span>
+                                        higtlight
+                                    </span>
+                                    <span>
+                                        stest
+                                    </span>
+                                    <span>
+                                        test
+                                    </span>
+                                    <span>
+                                        Driver
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <h3>
+                                    Schedule
+                                </h3>
+                                <span>
+                                    text
+                                </span>
+                            </div>
+                            <div class="col-2">
+                                <h4>
+                                    Teams
+                                </h4>
+                                <span>
+                                    text
+                                </span>
+                            </div>
+                            <div class="col-2">
+                                <h4>
+                                    driver
+                                </h4>
+                                <span>
+                                    text
+                                </span>
+                            </div>
+                            <div class="col-2">
+                                <h4>
+                                    Result
+                                </h4>
+                                <span>
+                                    text
+                                </span>
+                            </div>
+                            <div class="col-2">
+                                <h4>
+                                    Project team
+                                </h4>
+                                <span>
+                                    text
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="container text-white">
+                    <div class="footer-app">
+                        <h2 class="footer-left-app fw-bold fs-40">
+                            Download The offical F1 APP
+                        </h2>
+                        <span class="footer-right-app">
+                            <span>
+                                <a href="">
+                                    <img src="../image/homeimg/footerimg/app-store~c48d2499a7455513.c48d2499.svg"
+                                        alt="">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="">
+                                    <img src="../image/homeimg/footerimg/google-play~66d1792be650c30d.66d1792b.svg"
+                                        alt="">
+                                </a>
+                            </span>
+                        </span>
+                    </div>
                     <div>
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-twitter-x"></i>
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-youtube"></i>
+                        <img src="../image/homeimg/f1logo.avif" width="8%">
                     </div>
-                </div>
-                <div>
-                    <span>
-                        © 2003-2026 Formula One World Championship Limited
-                    </span>
+                    <div>3</div>
+                    <div>
+                        <div>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter-x"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-youtube"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <span>
+                            © 2003-2026 Formula One World Championship Limited
+                        </span>
+                    </div>
+                </div> -->
                 </div>
             </div>
-        </div>
-    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
