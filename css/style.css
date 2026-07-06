@@ -63,6 +63,17 @@ li a {
 .top-400{
     top: -350px;
 }
+.btn-homepage {
+    background: #c1c4f4;
+    width: 100%;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+.btn-homepage:hover{
+    transform: translateY(-5px);
+}
 
 @keyframes fadeup {
     from {
