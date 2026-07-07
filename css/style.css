@@ -123,25 +123,49 @@ li a {
 .partner-color-3{
     background-color: #47464c;
 }
+.footer-link-title{
+    color: #e20600;
+    transition: transform 0.2s ease;
+    cursor:pointer;
+}
+/* .footer-link-title:hover{
+    color: #e20600;
+    transform: translateX(3px);
+} */
 .footer-contact{
     border-bottom:3px solid #626262;
 }
-/* .partner-hover{
-    display: inline-block;  
-    transition: 0.3s;
+.contact-hover{
+    text-decoration: none;
 }
-.partner-hover:hover{
-    
-    background-color: rgb(71, 70, 76);
-    padding: 10px;
-} */ 
+.contact-hover:hover{
+    text-decoration: underline;
+}
 
+.partner-hover img {
+    transition: 0.3s ease;
+}
+.partner-hover:hover img {
+    transform: scale(1.2);
+}
 
-
-.footer-app{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.follow-icon{
+    color: #fff;
+    font-size: 30px;
+    transition: transform 0.2s ease;
+}
+.follow-icon:hover{
+    color: #e20600;
+    transform: translateY(-3px);
+}
+.footer-link-hover{
+    color: #fff;
+    text-decoration: none;
+    transition: 1s ease;
+}
+.footer-link-hover:hover{
+    color: #e20600;
+    text-decoration: underline;
 }
 
 
