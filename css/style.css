@@ -101,7 +101,7 @@ li a {
     align-items: center;
     margin-bottom:30px ;
 }
-.footer-inner-partner-letter h2{
+.footer-inner-partner-letter h1{
     font-weight: bold;
 }
 .footer-inner-partner-logo{
@@ -137,9 +137,12 @@ li a {
 }
 .contact-hover{
     text-decoration: none;
+    color: #e20600;
+    transition: 1s ease;
 }
 .contact-hover:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .partner-hover img {
