@@ -17,15 +17,15 @@
     border-radius: 8px;
     padding: 0.5em;
     box-shadow: 0 0 5px black;
-    background: linear-gradient(300deg, rgb(from #e92424 r g b / 2) 0%, rgb(from #b40909 r g b / 1) 100%);
+    background: linear-gradient(300deg, rgb(from #e92424 r g b / 2) 0%, rgb(from #8a1010 r g b / 1) 100%);
 }
 .team-card2{
     height: 100%;
     background-color:#FF8000;
     border-radius: 8px;
     padding: 0.5em;
-     box-shadow: 0 0 5px black;
-    background: linear-gradient(300deg, rgb(from #f48230 r g b / 2) 0%, rgb(from #ce5513 r g b / 1) 100%);
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(300deg, rgb(from #e66e17 r g b / 2) 0%, rgb(from #a93d04 r g b / 1) 100%);
 }
 .team-card3{
     height: 100%;
@@ -33,12 +33,12 @@
     border-radius: 8px;
     padding: 0.5em;
      box-shadow: 0 0 5px black;
-    background: linear-gradient(300deg, rgb(from #336ac3 r g b / 2) 0%, rgb(from #0c3978 r g b / 1) 100%);
+    background: linear-gradient(300deg, rgb(from #1c13d3 r g b / 2) 0%, rgb(from #04146e r g b / 1) 100%);
 }
 .team-card4{
     height: 100%;
     background-color:#00A1E8;
-    background: linear-gradient(300deg, rgb(from #09aef4 r g b / 2) 0%, rgb(from #147ba7 r g b / 1) 100%);
+    background: linear-gradient(300deg, rgb(from #1b7dcd r g b / 2) 0%, rgb(from #05327a r g b / 1) 100%);
     border-radius: 8px;
     padding: 0.5em;
     box-shadow: 0 0 5px black;
@@ -49,15 +49,15 @@
     border-radius: 8px;
     padding: 0.5em;
     box-shadow: 0 0 5px black;
-    background: linear-gradient(300deg, rgb(from #2d88f8 r g b / 2) 0%, rgb(from #035dbd r g b / 1) 100%);
+    background: linear-gradient(300deg, rgb(from #0b17fb r g b / 2) 0%, rgb(from #05146a r g b / 1) 100%);
 }
 .team-card6{
     height: 100%;
     background-color:#DEE1E2;
     border-radius: 8px;
     padding: 0.5em;
-     box-shadow: 0 0 5px black;
-    background: linear-gradient(300deg, rgb(from #cacbcc r g b / 2) 0%, rgb(from #818383 r g b / 1) 100%);
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(300deg, rgb(from #cacbcc r g b / 2) 0%, rgb(from #797a7a r g b / 1) 100%);
 }
 .team-card7{
     height: 100%;
@@ -65,7 +65,7 @@
     border-radius: 8px;
     padding: 0.5em;
      box-shadow: 0 0 5px black;
-    background: linear-gradient(300deg, rgb(from #338cfa r g b / 2) 0%, rgb(from #15569c r g b / 1) 100%);
+    background: linear-gradient(300deg, rgb(from #4c35fb r g b / 2) 0%, rgb(from #241b86 r g b / 1) 100%);
 }
 .team-card8{
     height: 100%;
@@ -73,7 +73,7 @@
     border-radius: 8px;
     padding: 0.5em;
      box-shadow: 0 0 5px black;
-    background: linear-gradient(300deg, rgb(from #ff3b3b r g b / 2) 0%, rgb(from #a11111 r g b / 1) 100%);
+    background: linear-gradient(300deg, rgb(from #f82d2d r g b / 2) 0%, rgb(from #8b0b0b r g b / 1) 100%);
 }
 
 .team-card9{
@@ -82,7 +82,7 @@
     border-radius: 8px;
     padding: 0.5em;
     box-shadow: 0 0 5px black;
-    background: linear-gradient(300deg, rgb(from #3ecd4d r g b / 2) 0%, rgb(from #038535 r g b / 1) 100%);
+    background: linear-gradient(300deg, rgb(from #0dda22 r g b / 2) 0%, rgb(from #123822 r g b / 1) 100%);
 }
 .team-card10{
     height: 100%;
@@ -94,59 +94,71 @@
 }
 
 .team-card img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+    padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom:-5px;
+    
 }
 .team-card1 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+    padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 .team-card2 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+    padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 .team-card3 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+    padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 .team-card4 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+    padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 .team-card5 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+   padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 .team-card6 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+    padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 .team-card7 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+    padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 .team-card8 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+   padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 .team-card9 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+   padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 .team-card10 img{
-    padding-top: 1.5em;
-    width:60%;
-    margin-left: 20px;
+    padding-top: 24px;
+    width:80%;
+    margin-left: -6px;
+    margin-bottom: -5px;
 }
 
 .edit-name{
@@ -193,4 +205,7 @@ margin-left:20px;
 .bort{
     position: absolute;
     padding-left: 6px;
+}
+a{
+    text-decoration:none !important;
 }

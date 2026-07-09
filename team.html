@@ -4,321 +4,272 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/teams.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/teams.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body class="bg-dark">
-  <nav class="navbar navbar-expand-lg bg-black py-3 shadow-lg">
+    <nav class="navbar navbar-expand-lg bg-black py-3 shadow-lg">
+      <div class="container">
+        <a class="navbar-brand me-5" href="#">
+          <img src="../image/homeimg/f1logo.avif" width="120px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav gap-4 fs-5 fw-bold ms-4">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="team.html">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="driver.html">Drivers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="results.html">Result</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="pteam.html">Project Teams</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img src="../image/homeimg/fialogo.png" width="50px">
+        </div>
+      </div>
+    </nav>  <!-- End Navbar -->
+
+    <br>
     <div class="container">
-      <a class="navbar-brand me-5" href="#">
-        <img src="image/homeimg/f1logo.avif" width="120px">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav gap-4 fs-5 fw-bold ms-4">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="schedule.html">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="team.html">Teams</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="driver.html">Drivers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="results.html">Result</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="pteam.html">Project Teams</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <img src="image/homeimg/fialogo.png" width="50px">
+        <div class="text text-white" ><h2><b>Teams</b></h2><p>Find the current Formula 1 teams for the 2026 season.</p></div>
+
+        <!--grid-->
+            <div class="container-grid">
+              <div class="row">
+                <div class="col px-1 mt-2">
+                  <a href="driver.html" target="_self" title="Know About Driver.">
+                  <div class ="team-card">
+                       <p class="name-of-car"><b><i class="fa-solid fa-6">#1 Mercedes</i> </b></p>
+                        <div class="edit-name">
+                        <div class="row">
+                          <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold"> George RUSELL</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold"> Kimi ANTONELLI</p></div>
+                          </div>
+                        </div>
+                      
+                        </div>
+                        <div class="logo"><img src="../image/teamsimg/mercedeslogo.avif"></div>
+                         <img src="../image/teamsimg/lollll.png">
+                      </div>  
+                  </a>
+                    </div>
+                <div class="col px-1 mt-2">
+                  <div class ="team-card1">
+                      <p class="name-of-car"><b><i class="fa-solid fa-6">#2 Scuderia Ferrari</i> </b></p>
+                      <div class="edit-name">
+                        <div class="row">
+                          <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Charles LECLERC</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Lewis HAMILTON</p></div>
+                          </div>
+                        </div>       
+                </div>
+                 <div class="logo"><img src="../image/teamsimg/ferrarilogo.avif"></div>
+                <img src="../image/teamsimg/lankhorm.png">
+               </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col px-1 mt-2">
+                  <div class ="team-card2">
+                     <p class="name-of-car"><b><i class="fa-solid fa-3">#3 Mclaren</i> </b></p> 
+                        <div class="edit-name">
+                        <div class="row">
+                          <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Lando NORRIS</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Oscar PIASTRI</p></div>
+                          </div>
+                        </div>
+                        </div>
+                         <div class="logo"><img src="../image/teamsimg/mclarenlogo.avif"></div>
+                        <img src="../image/teamsimg/mclarennnn.png">
+                  </div>
+              </div>
+                <div class="col px-1 mt-2">
+                  <div class ="team-card3">
+                        <p class="name-of-car"><b><i class="fa-solid fa-4">#4 Red Bull Racing</i> </b></p>
+                         <div class="edit-name">
+                        <div class="row">
+                           <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Max VERSTAPPEN</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Isack HADJIAR</p></div>
+                          </div>
+                        </div>
+                        </div>
+                         <div class="logo"><img src="../image/teamsimg/redbullracinglogo.avif"></div>
+                        <img src="../image/teamsimg/redbullllll.png">
+                </div>
+               </div>
+              </div>
+              <div class="row">
+                <div class="col px-1 mt-2">
+                  <div class ="team-card4">
+                         <p class="name-of-car"><b><i class="fa-solid fa-5">#5 Alpine</i> </b></p>
+                         <div class="edit-name">
+                        <div class="row">
+                           <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Pierre GASLY</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Franco <span class="bort">COLAPINTO</span></p></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="logo"><img src="../image/teamsimg/alpinelogo.avif"></div>
+                        <img src="../image/teamsimg/alpineeeeee.png">
+                    </div>
+              </div>
+                <div class="col px-1 mt-2">
+                  <div class ="team-card5">
+                         <p class="name-of-car"><b><i class="fa-solid fa-6">#6 Racing Bull</i> </b></p>
+                         <div class="edit-name">
+                        <div class="row">
+                           <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Liam LAWSON</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Avid LINDBLAD</p></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="logo"><img src="../image/teamsimg/racingbullslogo.avif"></div>
+                        <img src="../image/teamsimg/racingbullll.png">
+                </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col px-1 mt-2">
+                  <div class ="team-card6">
+                        <p class="name-of-car"><b><i class="fa-solid fa-7">#7 Hazz F1 Team</i> </b></p>
+                         <div class="edit-name">
+                        <div class="row">
+                           <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Esteban OCON</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Oliver BEARMAN</p></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="logo"><img src="../image/teamsimg/haasf1teamlogo.avif"></div>
+                        <img src="../image/teamsimg/hazzzzz.png">
+                </div>
+              </div>
+                <div class="col px-1 mt-2">
+                  <div class ="team-card7">
+                        <p class="name-of-car"><b><i class="fa-solid fa-8">#8 Williams</i> </b></p>
+                         <div class="edit-name">
+                        <div class="row">
+                          <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Carlos SAINZ</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Alexander ALBON</p></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="logo"><img src="../image/teamsimg/williamslogo.avif"></div>
+                        <img src="../image/teamsimg/williamsss.png">
+                </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col px-1 mt-2">
+                  <div class ="team-card8">
+                        <p class="name-of-car"><b><i class="fa-solid fa-9">#9 Audi</i> </b></p>
+                         <div class="edit-name">
+                        <div class="row">
+                           <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Nico <span class="bort">HULKENBERG</span></p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Gabriel <span class="bort">BORTOLETO</span></p></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="logo"><img src="../image/teamsimg/audilogo.avif"></div>
+                        <img src="../image/teamsimg/audiiiiii.png">
+                </div>
+              </div>
+                <div class="col px-1 mt-2">
+                  <div class ="team-card9">
+                         <p class="name-of-car"><b><i class="fa-solid fa-10">#10 Aston Martin</i> </b></p>
+                         <div class="edit-name">
+                        <div class="row">
+                           <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Fernando ALONSO</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Lance STROLL</p></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="logo1"><img src="../image/teamsimg/astonmartinlogo.avif"></div>
+                        <img src="../image/teamsimg/astonmartin.avif">   
+                </div>
+                </div>
+              </div>
+              <div class="row">                
+                <div class="col-md-6 px-1 mt-2"> 
+                  <div class ="team-card10">     
+                        <p class="name-of-car"><b><i class="fa-solid fa-11">#11 Cadillac</i> </b></p>
+                         <div class="edit-name">
+                        <div class="row">
+                           <div class="col">
+                            <div class="nak"><p class="driver-names fw-bold">Sergio PEREZ</p></div>
+                          </div>
+                          <div class="col">
+                            <div class="ken"><p class="driver-names fw-bold">Valtteri BOTTAS</p></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="logo"><img src="../image/teamsimg/cadillaclogo.avif"></div>
+                        <img src="../image/teamsimg/cadillac.avif">
+                </div>
+              </div>
+              </div>
+              <div class="row">
+              <div class="col px-1 mt-5">
+                <div class="bglol">
+                  <h1><br><br><br><br><br><br><b><i class="fa-solid fa-6">2026 F1 DRIVERS</i> </b></h1>
+                </div>
+              </div></div>
+    </div>
       </div>
     </div>
-  </nav> <!-- End Navbar -->
+   
 
-  <br>
-  <div class="container">
-    <div class="text text-white">
-      <h2><b>Teams</b></h2>
-      <p>Find the current Formula 1 teams for the 2026 season.</p>
-    </div>
-
-    <!--grid-->
-    <div class="container-grid">
-      <div class="row">
-        <div class="col px-1 mt-2">
-          <div class="team-card">
-            <p class="name-of-car"><b>#1 Mercedes</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">George RUSELL</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Kimi ANTONELLI</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div class="logo"><img src="image/teamsimg/mercedeslogo.avif"></div>
-            <img src="image/teamsimg/mercedes.avif">
-          </div>
-        </div>
-        <div class="col px-1 mt-2">
-          <div class="team-card1">
-            <p class="name-of-car"><b>#2 Scuderia Ferrari</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Charles LECLERC</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Lewis HAMILTON</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo"><img src="image/teamsimg/ferrarilogo.avif"></div>
-            <img src="image/teamsimg/ferrari.avif">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col px-1 mt-2">
-          <div class="team-card2">
-            <p class="name-of-car"><b>#3 Mclaren</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Lando NORRIS</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Oscar PIASTRI</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo"><img src="image/teamsimg/mclarenlogo.avif"></div>
-            <img src="image/teamsimg/mclaren.avif">
-          </div>
-        </div>
-        <div class="col px-1 mt-2">
-          <div class="team-card3">
-            <p class="name-of-car"><b>#4 Red Bull Racing</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Max VERSTAPPEN</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Isack HADJIAR</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo"><img src="image/teamsimg/redbullracinglogo.avif"></div>
-            <img src="image/teamsimg/redbull.avif">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col px-1 mt-2">
-          <div class="team-card4">
-            <p class="name-of-car"><b>#5 Alpine</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Pierre GASLY</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Franco <span class="bort">COLAPINTO</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo"><img src="image/teamsimg/alpinelogo.avif"></div>
-            <img src="image/teamsimg/alpine.avif">
-          </div>
-        </div>
-        <div class="col px-1 mt-2">
-          <div class="team-card5">
-            <p class="name-of-car"><b>#6 Racing Bull</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Liam LAWSON</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Avid LINDBLAD</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo"><img src="image/teamsimg/racingbullslogo.avif"></div>
-            <img src="image/teamsimg/racingbulls.avif">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col px-1 mt-2">
-          <div class="team-card6">
-            <p class="name-of-car"><b>#7 Hazz F1 Team</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Esteban OCON</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Oliver BEARMAN</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo"><img src="image/teamsimg/haasf1teamlogo.avif"></div>
-            <img src="image/teamsimg/haasf1team.avif">
-          </div>
-        </div>
-        <div class="col px-1 mt-2">
-          <div class="team-card7">
-            <p class="name-of-car"><b>#8 Williams</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Carlos SAINZ</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Alexander ALBON</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo"><img src="image/teamsimg/williamslogo.avif"></div>
-            <img src="image/teamsimg/williams.avif">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col px-1 mt-2">
-          <div class="team-card8">
-            <p class="name-of-car"><b>#9 Audi</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Nico <span class="bort">HULKENBERG</span></p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Gabriel <span class="bort">BORTOLETO</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo"><img src="image/teamsimg/audilogo.avif"></div>
-            <img src="image/teamsimg/audi.avif">
-          </div>
-        </div>
-        <div class="col px-1 mt-2">
-          <div class="team-card9">
-            <p class="name-of-car"><b>#10 Aston Martin</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Fernando ALONSO</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Lance STROLL</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo1"><img src="image/teamsimg/astonmartinlogo.avif"></div>
-            <img src="image/teamsimg/astonmartin.avif">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 px-1 mt-2">
-          <div class="team-card10">
-            <p class="name-of-car"><b>#11 Cadillac</b></p>
-            <div class="edit-name">
-              <div class="row">
-                <div class="col">
-                  <div class="nak">
-                    <p class="driver-names fw-bold">Sergio PEREZ</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="ken">
-                    <p class="driver-names fw-bold">Valtteri BOTTAS</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo"><img src="image/teamsimg/cadillaclogo.avif"></div>
-            <img src="image/teamsimg/cadillac.avif">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col px-1 mt-5">
-          <div class="bglol">
-            <h1><br><br><br><br><br><br><b>2026 F1 DRIVERS</b></h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>
