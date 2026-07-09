@@ -129,14 +129,11 @@ li a {
     background-color: rgb(0, 0, 0);
 }
 .footer-inner-partner{
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .footer-inner-partner-letter{
     color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom:30px ;
 }
 .footer-inner-partner-letter h1{
@@ -202,7 +199,7 @@ li a {
 .footer-link-hover{
     color: #fff;
     text-decoration: none;
-    transition: 1s ease;
+    transition: 0.7s ease;
 }
 .footer-link-hover:hover{
     color: #e20600;
