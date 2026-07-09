@@ -209,9 +209,10 @@ li a {
     text-decoration: underline;
 }
 
-
-
-
+@media screen and (max-width: 990px) {
+    .fialogo {display:none}
+    
+}
 
 .flex{
     display: flex;
