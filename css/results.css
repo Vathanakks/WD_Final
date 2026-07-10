@@ -4,10 +4,14 @@ body{
 }
 .result-content{
     background:#151514;
-    border-radius: 20px;
+    border-radius: 10px;
     min-width: 600px;
 }
  .scroll-result{
+    background:#151514;
+    border-radius: 10px;
+    padding: 30px;
+    min-width: 600px;
     overflow-x: hidden;
 }
 
@@ -28,8 +32,8 @@ body{
 }
 .result-header{
     color: #9a9a9a;
-    border-bottom: 3px solid rgb(44, 44, 46);
+    border-bottom: 3px solid rgb(79, 79, 79);
 }
 .result-row{
-    border-bottom: 1px solid rgb(108, 39, 39)
+    border-bottom: 1px solid rgb(57, 53, 53)
 }
