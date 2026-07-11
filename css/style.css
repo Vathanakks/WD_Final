@@ -206,11 +206,26 @@ li a {
     text-decoration: underline;
 }
 
+.carousel-img {
+    aspect-ratio: 16 / 7;
+}
+
+.carousel-caption {
+    background: #0000009d
+    ;
+}
+
 @media screen and (max-width: 990px) {
     .fialogo {display:none}
     .view-schedule {display: none;}
     
 }
+
+@media screen and (max-width: 770px) {
+    .description {display: none;}
+    
+}
+
 
 .flex{
     display: flex;
@@ -218,7 +233,4 @@ li a {
 .center{
     justify-content: center;
     align-items: center;
-}
-.test{
-    border: 2px solid green;
 }
