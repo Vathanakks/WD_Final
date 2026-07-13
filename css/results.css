@@ -1,30 +1,30 @@
 body{
     color: #fff;
-    background: #000000;
 }
+
 .result-content{
     background:#151514;
     border-radius: 10px;
+    padding: 20px;
     min-width: 600px;
 }
  .scroll-result{
-    background:#151514;
-    border-radius: 10px;
     padding: 30px;
     min-width: 600px;
     overflow-x: hidden;
+    scrollbar-width: thin;
 }
 
-@media (max-width:700px){
+/* @media (max-width:700px){
     .scroll-result{
         overflow-x: auto;
     }
-}
+} */
 .scroll-result::-webkit-scrollbar{
     height: 10px;
 }
 .scroll-result::-webkit-scrollbar-track{
-    background: #000000;
+    background: #151514;
 }
 .scroll-result::-webkit-scrollbar-thumb{
     background: #777;
@@ -36,4 +36,12 @@ body{
 }
 .result-row{
     border-bottom: 1px solid rgb(57, 53, 53)
+}
+
+
+
+
+.testing-margin{
+    background: #151514;
+    padding: 10px;
 }
