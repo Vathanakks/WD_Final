@@ -82,7 +82,7 @@
     border-radius: 8px;
     padding: 0.5em;
     box-shadow: 0 0 5px black;
-    background: linear-gradient(300deg, rgb(from #0dda22 r g b / 2) 0%, rgb(from #123822 r g b / 1) 100%);
+    background: linear-gradient(300deg, rgb(from #0f7a5c r g b / 2) 0%, rgb(from #074231 r g b / 1) 100%);
 }
 .team-card10{
     height: 100%;
@@ -183,8 +183,8 @@ margin-left:20px;
     right:0;
 }
 .logo {
-    width:60px;
-    margin-top: -90px;
+    width:45px;
+    margin-top: -85px;
     float: right;
 }
 .logo1 {
