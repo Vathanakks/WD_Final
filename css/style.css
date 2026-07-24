@@ -212,7 +212,7 @@ li a {
 }
 
 @media screen and (max-width: 990px) {
-    .fialogo {display:none}
+    .fialogo {display:none !important}
     .view-schedule {display: none;}
     
 }
