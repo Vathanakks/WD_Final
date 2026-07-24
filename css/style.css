@@ -163,10 +163,6 @@ li a {
     transition: transform 0.2s ease;
     cursor:pointer;
 }
-/* .footer-link-title:hover{
-    color: #e20600;
-    transform: translateX(3px);
-} */
 .footer-contact{
     border-bottom:3px solid #626262;
 }
