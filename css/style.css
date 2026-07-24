@@ -230,3 +230,8 @@ li a {
     justify-content: center;
     align-items: center;
 }
+
+
+.test-shop{
+    border: 2px solid rgb(235, 219, 219);
+}

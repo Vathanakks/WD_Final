@@ -7,3 +7,23 @@ body{
 .first-row {
   border-top: 3px solid #4e4b4b;
 }
+
+
+
+
+
+
+.result-menu{
+    transition: 0.4s;
+    color: #9a9a9a;
+}
+.result-menu-active{
+    transition: 0.4s;
+    color: #fff;
+}
+.result-menu-active:hover{
+    color: #9a9a9a;
+}
+.result-menu:hover{
+    color: #fff;
+}
