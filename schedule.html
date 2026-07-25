@@ -22,54 +22,55 @@
 <body>
   <div class="main-container">
 
-        <nav class="navbar navbar-expand-lg bg-black py-3 shadow-lg">
-            <div class="container nav-mobile">
-                <a class="navbar-brand me-5" href="/">
-                    <img src="image/homeimg/f1logo.avif" width="120px">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="text-white"><i class="bi bi-list"></i></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav gap-2 fs-5 fw-bold ms-4">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" href="schedule.html">Schedule</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="team.html">Teams</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="driver.html">Drivers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="results.html">Result</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="pteam.html">Project Teams</a>
-                        </li>
-                        <li class="nav-ite dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
-                                F1 Store
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item fw-bold" href="men.html">Men</a></li>
-                                <li><a class="dropdown-item fw-bold" href="women.html">Women</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="fialogo">
-                    <div class="d-flex align-items-center">
-                        <button class="btn btn-danger fw-semibold px-4 me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
-                        <img src="image/homeimg/fialogo.png" width="50px">
-                    </div>
-                </div>
-            </div>
-        </nav> <!-- End Navbar -->
+    <nav class="navbar navbar-expand-lg bg-black py-3 shadow-lg">
+      <div class="container nav-mobile">
+        <a class="navbar-brand me-5" href="/">
+          <img src="image/homeimg/f1logo.avif" width="120px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="text-white"><i class="bi bi-list"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav gap-2 fs-5 fw-bold ms-4">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="team.html">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="driver.html">Drivers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="results.html">Result</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="pteam.html">Project Teams</a>
+            </li>
+            <li class="nav-ite dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                F1 Store
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item fw-bold" href="men.html">Men</a></li>
+                <li><a class="dropdown-item fw-bold" href="women.html">Women</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="fialogo">
+          <div class="d-flex align-items-center">
+            <button class="btn btn-danger fw-semibold px-4 me-3" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Login</button>
+            <img src="image/homeimg/fialogo.png" width="50px">
+          </div>
+        </div>
+      </div>
+    </nav> <!-- End Navbar -->
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -248,7 +249,7 @@
             FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026
           </div>
         </div>
-        
+
 
       </div>
     </div>
@@ -502,6 +503,53 @@
     </div>
   </div>
 
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7">
+              <img src="image/4people.png" class="img-fluid">
+            </div>
+            <div class="col-md-5">
+              <form>
+                <div class="mb-3 text-danger fw-bold fs-3">Login Form</div>
+                <div class="mb-3">
+                  <label class="form-label">Email address/Phone Address</label>
+                  <input type="email" placeholder="email@gmail.com" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Password</label>
+                  <input type="password" placeholder="password" class="form-control">
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                  </div>
+                  <div>Forget password</div>
+                </div>
+
+                <button type="submit" class="btn btn-danger w-100 rounded-5 mb-2">Login</button>
+                <div class="mb-2 text-center">Or</div>
+                <div class="text-center fs-4">
+                  <i class="bi bi-facebook text-primary"></i>
+                  <i class="bi bi-google text-danger"></i>
+                  <i class="bi bi-pinterest text-danger"></i>
+                  <i class="bi bi-apple text-secondary"></i>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
