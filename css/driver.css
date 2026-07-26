@@ -17,24 +17,37 @@
     text-align: center;
     height: 100%;
     width:100%;
-    border-radius:10px;
-
-    
+    border-radius:10px; 
 }
 .name-player{
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 1000px 0;
     position: absolute;
-    border-radius: 2px;
+    border-radius: 1px;
     width: 100%;
     background-color: gray;
     background: rgba(100, 100, 100, 0.3);
-    backdrop-filter: blur(1000px);
-    -webkit-backdrop-filter: blur(12px);
-    padding: 0.2px;
+    backdrop-filter: blur(100px);
+    padding: 5px;
 }
 .name{
     margin-bottom: 100px;
+}
+.name-player h3{
+    padding-top : 10px;
+}
+.number-driver{
+    right: 20px;
+    position: absolute;
+    font-size: 50px;
+}
+.flag{
+    margin-top: 12px;
+    left:15px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    font-size:25px;
+
 }
