@@ -230,3 +230,14 @@ li a {
     justify-content: center;
     align-items: center;
 }
+
+.driver-card {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.img-edit img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+
+}
