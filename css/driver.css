@@ -11,7 +11,30 @@
     display:block;
 }
 .driver-card{
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px black;
+    text-align: center;
     height: 100%;
     width:100%;
     border-radius:10px;
+
+    
+}
+.name-player{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1000px 0;
+    position: absolute;
+    border-radius: 2px;
+    width: 100%;
+    background-color: gray;
+    background: rgba(100, 100, 100, 0.3);
+    backdrop-filter: blur(1000px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 0.2px;
+}
+.name{
+    margin-bottom: 100px;
 }
