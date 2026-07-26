@@ -5,7 +5,7 @@
 
 .team-card{
     height: 100%;
-    background: linear-gradient(300deg, rgb(from #19d9b6 r g b / 2) 0%, rgb(from #0e8177 r g b / 1) 100%);
+    background: linear-gradient(300deg, rgb(from #19d9b6 r g b / 2) 0%, rgb(from #055554 r g b / 1) 100%);
     background-color: #27F4D2;
     border-radius: 8px;
     padding: 0.5em;
@@ -32,7 +32,7 @@
     background-color:#3671C6;
     border-radius: 8px;
     padding: 0.5em;
-     box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
     background: linear-gradient(300deg, rgb(from #1c13d3 r g b / 2) 0%, rgb(from #04146e r g b / 1) 100%);
 }
 .team-card4{
@@ -64,7 +64,7 @@
     background-color:#1868DB;
     border-radius: 8px;
     padding: 0.5em;
-     box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
     background: linear-gradient(300deg, rgb(from #4c35fb r g b / 2) 0%, rgb(from #241b86 r g b / 1) 100%);
 }
 .team-card8{
@@ -72,7 +72,7 @@
     background-color:#FF2D00;
     border-radius: 8px;
     padding: 0.5em;
-     box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
     background: linear-gradient(300deg, rgb(from #f82d2d r g b / 2) 0%, rgb(from #8b0b0b r g b / 1) 100%);
 }
 
