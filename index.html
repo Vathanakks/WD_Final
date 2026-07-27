@@ -16,6 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -77,7 +78,7 @@
                 <source src="Video/Video2.mp4" type="video/mp4">
             </video>
             <div class="container position-relative">
-                <div class="view-schedule position-absolute bottom-0 start-0 pb-5 fadeup">
+                <div class="view-schedule position-absolute bottom-0 start-0 pb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                     <a href="schedule.html" class="btn btn-danger text-white fs-5 fw-semibold px-4 shadow-lg">
                         View Schedule
                     </a>
@@ -86,7 +87,7 @@
         </div>
 
         <div class="container my-5">
-            <div class="row gy-4">
+            <div class="row gy-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <div class="col-lg-3 col-md-4 col-6">
                     <button class="btn-homepage rounded py-2 fs-5"><a href="schedule.html">2026 SCHEDULE</a></button>
                 </div>
@@ -104,7 +105,7 @@
         </div>
 
         <div class="container-fluid bg-black p-0">
-            <div class="container news align-items-center justify-content-between mb-5 py-5">
+            <div class="container news align-items-center justify-content-between mb-5 py-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <div class="fw-bold fs-1 text-white mb-4">Lastest News</div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-6 mb-3">
@@ -134,7 +135,7 @@
             </div>
         </div>
 
-        <div class="container mb-4">
+        <div class="container mb-4" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="500">
             <div class="f1-star position-relative d-flex justify-content-center">
                 <img src="image/homeimg/f1-star.png" width="100%">
                 <div
@@ -149,8 +150,8 @@
         </div>
 
 
-        <div id="highlight" class="highlight container-fluid item-center fadeup p-0">
-            <div class="container py-5">
+        <div id="highlight" class="highlight container-fluid item-center p-0">
+            <div class="container py-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <div class="fw-bold fs-1 text-white mb-4">2026 Highlight</div>
                 <div class="row text-white">
                     <div class="highlight-col col-lg-4 col-md-6 col-6 mb-3">
@@ -782,6 +783,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" href="image/homeimg/f1logos.ico">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,14 +73,13 @@
     </div>
   </nav> <!-- End Navbar -->
 
-  <br>
-  <div class="container">
-    <div class="text text-white fadeup">
-      <h2><b>Teams</b></h2>
+  <div class="container py-4">
+    <div class="text text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <h1><b>Teams</b></h1>
       <p>Find the current Formula 1 teams for the 2026 season.</p>
     </div>
 
-    <div class="container-grid">
+    <div class="container-grid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
       <div class="row">
         <div class="col px-2 mt-3 fadeup">
           <a href="driver.html" target="_self" title=" Go to Drivers.">
@@ -922,6 +922,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+        AOS.init();
+  </script>
 </body>
 
 </html>
